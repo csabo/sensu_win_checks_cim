@@ -1,5 +1,5 @@
 # USAGE:
-#   pwsh.exe -NonInteractive -NoProfile -ExecutionPolicy Bypass -NoLogo -File C:\\etc\\sensu\\plugins\\check-windows-service.ps1 $serviceDisplayNameString $ExclusionArray
+#   pwsh.exe -NonInteractive -NoProfile -ExecutionPolicy Bypass -NoLogo -File C:\\opt\\sensu\\plugins\\check-windows-service_cim.ps1 $serviceDisplayNameString $ExclusionArray
 [CmdletBinding()]
 Param(
   [Parameter(Mandatory=$True,Position=1)]

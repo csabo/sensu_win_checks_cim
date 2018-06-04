@@ -1,5 +1,5 @@
 # USAGE:
-#   Powershell.exe -NonInteractive -NoProfile -ExecutionPolicy Bypass -NoLogo -File C:\\etc\\sensu\\plugins\\check-windows-cpu-queue.ps1 1 3
+#   pwsh.exe -NonInteractive -NoProfile -ExecutionPolicy Bypass -NoLogo -File C:\\opt\\sensu\\plugins\\check-windows-cpu-queue.ps1 1 3
 [CmdletBinding()]
 Param(
   [Parameter(Mandatory=$True,Position=1)]

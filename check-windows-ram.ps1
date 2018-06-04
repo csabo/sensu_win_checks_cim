@@ -1,5 +1,5 @@
 # USAGE:
-#   Powershell.exe -NonInteractive -NoProfile -ExecutionPolicy Bypass -NoLogo -File C:\\etc\\sensu\\plugins\\check-windows-ram.ps1 90 95
+#   pwsh.exe -NonInteractive -NoProfile -ExecutionPolicy Bypass -NoLogo -File C:\\opt\\sensu\\plugins\\check-windows-ram.ps1 90 95
 
 [CmdletBinding()]
 Param(
